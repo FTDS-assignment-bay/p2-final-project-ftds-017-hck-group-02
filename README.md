@@ -9,7 +9,12 @@
   4. Vincent Kaunang (Data Engineering & Data Analyst)
 
 ## Problem Statement
-...
+Kami meneliti sebuah penjualan pada suatu toko elektronik, dan kami mendapatkan sebuah informasi bahwa penjualan barang elektronik yang terus meningkat seiring berjalannya waktu. 
+
+Untuk meningkatkan performa dan kualitas sebuah toko elektronik, kami membuat model machine learning yang bertujuan untuk memberikan rekomendasi produk terkait atau serupa berdasarkan riwayat pencarian customer di toko elektronik. 
+
+Dengan demikian, kami berharap dapat meningkatkan pengalaman belanja customer dan mendorong penjualan lebih lanjut.
+
 
 ## Objective:
 
