@@ -9,17 +9,21 @@
   4. Vincent Kaunang (Data Engineering & Data Analyst)
 
 ## Problem Statement
-Kami meneliti sebuah penjualan pada suatu toko elektronik, dan kami mendapatkan sebuah informasi bahwa penjualan barang elektronik yang terus meningkat seiring berjalannya waktu. 
+We researched sales at an electronics store and found that the sales of electronic goods have been continuously increasing over time.
 
-Untuk meningkatkan performa dan kualitas sebuah toko elektronik, kami membuat model machine learning yang bertujuan untuk memberikan rekomendasi produk terkait atau serupa berdasarkan riwayat pencarian customer di toko elektronik. 
+To improve the performance and quality of the electronics store, we created a machine learning model aimed at providing recommendations for related or similar products based on customers' search history at the store.
 
-Dengan demikian, kami berharap dapat meningkatkan pengalaman belanja customer dan mendorong penjualan lebih lanjut.
+In this way, we hope to enhance the customer shopping experience and drive further sales.
 
 
 ## Objective:
 
-1. Develop an automated segmentation model to categorize customers more accurately and efficiently based on their behavior and preferences.
-2. Develop an automated recommender system to provide personalized product suggestions and enhance the shopping experience.
+1. Goal:
+The goal of creating this recommendation model is to provide similar product recommendations to customers.
+
+2. User:
+Recommendation Model: Software Engineering Division, PR/Marketing Division
+Exploratory Data Analysis: Senior Management Team
    
 ## Background: 
 
