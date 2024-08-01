@@ -22,3 +22,19 @@ The background for undertaking this project is the consistently increasing sales
 
 ### Dataset:
 The dataset that we use is from kaggle and can be found through this [link](https://www.kaggle.com/datasets/naofilahmad/sales-datset-product-sample).
+
+## Workflow
+**Data Engineering**
+
+**Data Analysis**
+
+**Model Building**
+
+## Tools:
+
+
+## Conclusion & Business Recommendations:
+
+
+## Further Improvements:
+
