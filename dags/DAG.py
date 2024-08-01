@@ -65,19 +65,6 @@ def preprocessing():
     data.columns = data.columns.str.replace(' ', '_')
 
     data.to_csv('/opt/airflow/dags/sales_data_clean.csv', index=False)
-    
-def upload_to_elasticsearch():
-    '''
-    setelah saya melakukan processing, saya mengupload data yang sudah dibersihkan ke elastic search
-    untuk dibuat visualisasinya di kibana
-    '''
-    es = Elasticsearch("http://elasticsearch:9200")
-    df = pd.read_csv('/opt/airflow/dags/sales_data_clean.csv')
-    
-    for i, r in df.iterrows():
-        doc = r.to_dict()  # Convert the row to a dictionary
-        res = es.index(index="table_testingdo", id=i+1, body=doc)
-        print(f"Response from Elasticsearch: {res}")
         
 
         
@@ -113,13 +100,8 @@ with DAG(
         task_id='edit_data',
         python_callable=preprocessing)
 
-    # Task: 4
-    upload_data = PythonOperator(
-        task_id='upload_data_elastic',
-        python_callable=upload_to_elasticsearch)
-
     #proses untuk menjalankan di airflow
-    load_csv_task >> ambil_data_pg >> edit_data >> upload_data
+    load_csv_task >> ambil_data_pg >> edit_data 
 
 
 
