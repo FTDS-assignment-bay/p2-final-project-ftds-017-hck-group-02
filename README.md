@@ -60,10 +60,10 @@ The dataset is taken from Kaggle and can be found through this [link](https://ww
 
 ## Tools:
 
-  -Python: Data Analysis, Processing, and Modeling.
-  -Airflow (DAG): Data Pipeline.
-  -PostgreSQL: Storing Datasets.
-  -HuggingFace: Model Deployment.
+  - Python: Data Analysis, Processing, and Modeling.
+  - Airflow (DAG): Data Pipeline.
+  - PostgreSQL: Storing Datasets.
+  - HuggingFace: Model Deployment.
 
 ## Conclusion & Business Recommendations:
 
